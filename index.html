@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Dictionary Web App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://dictionary-web-app.vercel.app/icons/book.svg" alt="" class="book">
+            <div class="header-flex-container">
+                <div class="header-box">
+                    <h1>Sans Serif</h1>
+                    <img src="https://dictionary-web-app.vercel.app/icons/arrow.svg" alt="">
+                </div>
+                <div class="header-box">
+                    <span class="v-line"></span>
+                    <label class="slider">
+                        <input type="checkbox" id="check" />
+                        <span id="checkmark"></span>
+                    </label>
+                    <ion-icon name="moon-outline" class="light-theme"></ion-icon>
+                    <ion-icon name="moon" class="hide dark-theme"></ion-icon>
+                </div>
+            </div>
+        </header>
+
+        <section class="search-input">
+            <input type="text" id="search-bar" placeholder="Search for any word..." />
+            <img src="https://dictionary-web-app.vercel.app/icons/search.svg" alt="" class="loop-img" />
+        </section>
+
+        <hr class="h-line">
+
+        <main class="content-area">
+            <div class="card">
+                <div class="card-header-flex-container">
+                   
+                </div>
+            </div>
+            <div class="definition">
+
+            </div>
+        </main>
+
+        <section class="not-found-area">
+            <div class="not-found">
+                
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
